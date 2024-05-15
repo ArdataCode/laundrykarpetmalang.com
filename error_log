@@ -1,0 +1,105 @@
+[06-Dec-2023 09:40:46 UTC] Cron reschedule event error for hook: breeze_purge_cache, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"breeze_varnish_time","args":[],"interval":86400}
+[05-Jan-2024 20:35:45 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[05-Jan-2024 22:42:25 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[09-Jan-2024 16:40:45 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[31-Jan-2024 05:01:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/laundrykarpetmalang.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/laundrykarpetmalang.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/laundrykarpetmalang.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/laundrykarpetmalang.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/laundrykarpetmalang.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/laundrykarpetmalang.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[15-Feb-2024 10:00:49 UTC] Cron reschedule event error for hook: googlesitekit_cron_update_remote_features, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[05-Mar-2024 03:54:30 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[12-Mar-2024 14:51:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/laundrykarpetmalang.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/laundrykarpetmalang.com/wp-includes/pluggable.php(2041): wp_mail()
+#5 /home/websit19/laundrykarpetmalang.com/wp-includes/comment.php(2346): wp_notify_moderator()
+#6 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(326): wp_new_comment_notify_moderator()
+#7 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/websit19/laundrykarpetmalang.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/websit19/laundrykarpetmalang.com/wp-includes/comment.php(2320): do_action()
+#10 /home/websit19/laundrykarpetmalang.com/wp-includes/comment.php(3671): wp_new_comment()
+#11 /home/websit19/laundrykarpetmalang.com/wp-comments-post.php(25): wp_handle_comment_submission()
+#12 {main}
+  thrown in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[16-Mar-2024 07:33:33 UTC] PHP Warning:  Attempt to read property "canonical" on bool in /home/websit19/laundrykarpetmalang.com/wp-content/plugins/wordpress-seo/src/integrations/front-end/feed-improvements.php on line 164
+[16-Mar-2024 07:33:33 UTC] PHP Warning:  Attempt to read property "canonical" on bool in /home/websit19/laundrykarpetmalang.com/wp-content/plugins/wordpress-seo/src/integrations/front-end/feed-improvements.php on line 164
+[16-Mar-2024 07:33:33 UTC] PHP Warning:  Attempt to read property "canonical" on bool in /home/websit19/laundrykarpetmalang.com/wp-content/plugins/wordpress-seo/src/integrations/front-end/feed-improvements.php on line 164
+[03-Apr-2024 04:44:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/laundrykarpetmalang.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/laundrykarpetmalang.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/laundrykarpetmalang.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/laundrykarpetmalang.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/laundrykarpetmalang.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/laundrykarpetmalang.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[09-Apr-2024 21:59:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/laundrykarpetmalang.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/laundrykarpetmalang.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/laundrykarpetmalang.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/laundrykarpetmalang.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/laundrykarpetmalang.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/laundrykarpetmalang.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[07-May-2024 16:44:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/websit19/laundrykarpetmalang.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/websit19/laundrykarpetmalang.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/websit19/laundrykarpetmalang.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/websit19/laundrykarpetmalang.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/websit19/laundrykarpetmalang.com/wp-includes/update.php(292): do_action()
+#12 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/websit19/laundrykarpetmalang.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/websit19/laundrykarpetmalang.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/websit19/laundrykarpetmalang.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/websit19/laundrykarpetmalang.com/wp-includes/PHPMailer/PHPMailer.php on line 881

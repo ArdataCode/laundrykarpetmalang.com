@@ -1,0 +1,8 @@
+[28-Jan-2024 14:27:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/laundrykarpetmalang.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/laundrykarpetmalang.com/wp-includes/blocks/index.php on line 8
+[13-May-2024 05:44:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/websit19/laundrykarpetmalang.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/websit19/laundrykarpetmalang.com/wp-includes/blocks/index.php on line 8
